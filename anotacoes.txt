@@ -1,0 +1,10 @@
+Verifica se uma string HTML está estruturada da seguinte forma:
+1. O código HTML está dividido em linhas;
+2. Cada linha pode ser apenas de um dos seguintes tipos:
+    a.Tag de abertura (exemplo: < div >)
+    b.Tag de fechamento (exemplo: </ div >)
+    c.Trecho de texto (exemplo: “Este é o corpo.”)
+3. Uma mesma linha não pode conter dois tipos de conteúdo;
+4. Apenas elementos HTML com pares de tags de abertura e
+     fechamento são utilizados (exemplo: < div > e </ div >, mas não < br //>)
+5. Tags de abertura não possuem atributos (contra-exemplo: < a href=”link.html” >).
