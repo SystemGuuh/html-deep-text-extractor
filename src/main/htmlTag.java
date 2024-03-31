@@ -1,6 +1,7 @@
 public class htmlTag {
     private String tagName;
     private boolean isOpeningTag;
+    private String content;
 
     public htmlTag(String tag) {
         if (tag.startsWith("/")) {
@@ -16,7 +17,5 @@ public class htmlTag {
         return tagName;
     }
 
-    public boolean isOpeningTag() {
-        return isOpeningTag;
-    }
+    public boolean isOpeningTag() { return isOpeningTag; }
 }
